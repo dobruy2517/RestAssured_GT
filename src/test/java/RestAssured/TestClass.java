@@ -48,7 +48,7 @@ public class TestClass {
 
         assertEquals(200, response.getStatusCode());
 
-        JSONArray respJsonArray = new JSONArray(response.asString());
+        JSONObject respJsonArray = new JSONObject(response.asString());
         System.out.println(respJsonArray);
 //        JSONObject respJsonObject = respJsonArray.getJSONObject(0);
 //        ProductPage actualProduct = new ObjectMapper().readValue(respJsonObject.toString(), ProductPage.class);
