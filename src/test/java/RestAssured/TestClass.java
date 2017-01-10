@@ -43,7 +43,7 @@ public class TestClass {
 
         Response response = given().
                 when().
-                get("/xml/services/json/reservation/products/21980/2017-01-09/2017-01-15?pos=a502d2c65c2f7" +
+                get("/xml/services/json/reservation/products/21980/2017-01-20/2017-02-20?pos=a502d2c65c2f7" +
                         "5d3&guests=2&amenity=true&currency=USD&exec_match=false&display_inquire_only=false");
 
         assertEquals(200, response.getStatusCode());
