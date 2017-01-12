@@ -1,3 +1,7 @@
 RestAssured_GT.iml
 .idea
 target
+**/*.iml
+RestAssured.iml
+src/main/main.iml
+src/test/test.iml
